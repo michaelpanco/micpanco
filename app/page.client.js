@@ -1,7 +1,7 @@
 "use client";
 
-import { useRef, useState } from "react";
-
+import { useState } from "react";
+import Image from "next/image";
 import About from "@micpanco/components/Partials/About";
 import Experiences from "@micpanco/components/Partials/Experiences";
 import Skills from "@micpanco/components/Partials/Skills";
@@ -24,8 +24,20 @@ export default function Home() {
   const th = 0.17;
   return (
     <>
-      <div className="bg-[#65BCCE] h-[50px] sticky top-0 hidden lg:block">
-        &nbsp;
+      <div className="animated-bg h-[60px] sticky top-0 hidden lg:block relative">
+        <div className="flex items-center justify-between text-white font-semibold gap-x-2 mx-auto max-w-3xl lg:max-w-screen-lg  sm:px-6 xl:max-w-screen-xl  ">
+          <div className="flex gap-x-2">
+            <Image
+              src="/assets/img/logo.png"
+              width={70}
+              height={70}
+              alt="Michael Panco"
+              className="pt-3"
+            />
+            <div className="pt-4">michaelpanco</div>
+          </div>
+          <div className="pt-2">Download my CV</div>
+        </div>
       </div>
       <main className="mx-auto max-w-3xl lg:max-w-screen-lg px-4 sm:px-6 xl:max-w-screen-xl  ">
         <div className="lg:flex lg:gap-x-10">
@@ -37,7 +49,7 @@ export default function Home() {
               />
             </div>
           </div>
-          <div className="lg:flex-1 ">
+          <div className="lg:flex-1">
             <div id={"about"} className="pt-10">
               <InView
                 as="div"

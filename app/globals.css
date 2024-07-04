@@ -19,6 +19,7 @@
 }
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 3rem;
 }
 body {
   color: rgb(var(--foreground-rgb));
@@ -39,17 +40,22 @@ body {
   height: 0.5em;
   display: inline;
 }
-.hr-mensu::before {
-  content: "";
-  position: absolute;
-  bottom: 5px;
-  left: 0;
-  right: 0;
-  height: 0.5em;
-  border-top: 1px solid black;
-  z-index: -1;
+.animated-bg {
+  background: linear-gradient(-90deg, #388ea1, #6fbfd5, #a4d7a5, #6aa863);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
 }
-
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
