@@ -27,7 +27,7 @@ export default function Skills() {
         "Having a backend skill is super handy for me to build a project from scratch, here are some tools I used for backend development.",
       preItemsTitle: "Languages I speak:",
       preItems: ["NodeJS", "PHP"],
-      itemsTitle: "Development Tools:",
+      itemsTitle: "Frameworks & Databases:",
       items: [
         "NestJS",
         "ExpressJS",
@@ -41,8 +41,7 @@ export default function Skills() {
     },
     {
       title: "Others",
-      subTitle:
-        "And some bunch of tools that I’m using outside of coding development.",
+      subTitle: "And some bunch of tools that I’m using outside of coding.",
       itemsTitle: "Other Tools:",
       items: [
         "Adobe Photoshop",
