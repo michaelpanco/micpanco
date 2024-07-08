@@ -8,6 +8,7 @@ import Skills from "@micpanco/components/Partials/Skills";
 import Projects from "@micpanco/components/Partials/Projects";
 import InfoNavigation from "@micpanco/components/Partials/InfoNavigation";
 import { InView } from "react-intersection-observer";
+import Link from "next/link";
 
 export default function Home() {
   const [currentPageSection, setCurrentPageSection] = useState("");
@@ -36,7 +37,15 @@ export default function Home() {
             />
             <div className="pt-4">michaelpanco</div>
           </div>
-          <div className="pt-2">Download my CV</div>
+          <div className="pt-2">
+            <Link
+              href="/assets/files/resume_v3.pdf"
+              className="hover:underline"
+              target="_blank"
+            >
+              Download my CV
+            </Link>
+          </div>
         </div>
       </div>
       <main className="mx-auto max-w-3xl lg:max-w-screen-lg px-4 sm:px-6 xl:max-w-screen-xl  ">

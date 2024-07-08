@@ -1,9 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import { twMerge } from "tailwind-merge";
+
+import { AiTwotoneMail } from "react-icons/ai";
+import { PiLinkedinLogoDuotone, PiFacebookLogoDuotone } from "react-icons/pi";
+
 export default function InfoNavigation({ currentNavigation, onmenuchange }) {
   return (
-    <div>
+    <div className="flex flex-col">
       <div className="lg:flex gap-x-5 mb-5 lg:mb-10">
         <div className="w-full h-[150px] lg:h-auto lg:w-3/12 relative mb-3 lg:mb-0">
           <Image
@@ -33,7 +37,7 @@ export default function InfoNavigation({ currentNavigation, onmenuchange }) {
         </div>
       </div>
 
-      <div className="hidden lg:block text-teal text-base mb-10">
+      <div className="hidden lg:block text-teal text-base mb-10 flex-1">
         <ul className="space-y-5">
           <li className="relative">
             <Link
@@ -89,6 +93,38 @@ export default function InfoNavigation({ currentNavigation, onmenuchange }) {
           </li>
         </ul>
       </div>
+      <div className="flex items-center justify-center lg:justify-start gap-x-4 mb-5 lg:mb-0">
+        <div className="text-black hidden lg:block">Get in touch</div>
+        <div className="flex items-center gap-x-2">
+          <Link
+            href="https://facebook.com/michaelpanco"
+            rel="nofollow"
+            target="_blank"
+            className="text-lime hover:text-black"
+          >
+            <PiFacebookLogoDuotone className="w-10 h-10 " />
+          </Link>
+
+          <Link
+            href="https://www.linkedin.com/in/michaelpanco/"
+            rel="nofollow"
+            target="_blank"
+            className="text-lime hover:text-black"
+          >
+            <PiLinkedinLogoDuotone className="w-10 h-10 mr-1" />
+          </Link>
+
+          <Link
+            href="mailto:micpanco@gmail.com"
+            rel="nofollow"
+            target="_blank"
+            className="text-lime hover:text-black"
+          >
+            <AiTwotoneMail className="w-10 h-10" />
+          </Link>
+        </div>
+      </div>
+
       <div className="block lg:hidden">
         <button
           class="align-middle select-none font-sans font-bold text-center w-full lg:w-auto  transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none  py-5 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"

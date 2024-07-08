@@ -8,11 +8,11 @@ export default function About() {
       <p className="mb-2 ">
         {`
             In my young days, my strengths lie in the artistic side; drawing, graphic
-            editing, and animation. Designing for me is quite fun and challenging,
-            deciding the proper sizing and placement of the element, the correct
+            editing, and animation. Designing for me is quite fun and challenging, stuff like
+            deciding the proper sizing and placement of the element, setting the correct
             combination of colors, and judging the end result, those are the things
-            that I enjoyed most. In 2008, I made my first website, I never thought
-            that it was quite interesting, and that triggered my interest in web
+            that I enjoyed most. In 2008, I made my first website and I never thought
+            that it was quite fun, and so that triggered my interest in web
             development. My college school doesn’t teach us about development but I
             thrive to learn more anything about it. Because of this interest, I landed
             an invitation for an OJT (On the Job Training), my college professor asked
