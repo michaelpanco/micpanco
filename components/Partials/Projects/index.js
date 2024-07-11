@@ -126,8 +126,8 @@ export default function Projects() {
       name: "Nextshark App",
       type: "Mobile Application",
       description:
-        "The leading source for Asian American news covering culture, issues, entertainment, politics, and more.",
-      techstack: ["ReactJS", "NextJS", "Tailwind CSS"],
+        "Nextshark news is now accessible at the fingertips, both available on IOS and Android mobile",
+      techstack: ["ReactNative", "Expo"],
       screenshots: [
         {
           src: "/assets/img/projects/portfolios/ns-app/0.JPG",
