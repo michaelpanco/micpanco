@@ -22,7 +22,7 @@ export default function InfoNavigation({ currentNavigation, onmenuchange }) {
             Michael <span className="text-lime">Panco</span>
           </div>
           <div className="font-semibold text-black mb-5 lg:mb-2 text-center lg:text-left">
-            Frontend Developer
+            Frontend Web Developer
           </div>
           <div>
             <p className="mb-1">
