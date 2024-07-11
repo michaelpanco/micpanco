@@ -364,7 +364,7 @@ export default function Projects() {
                   <Link
                     onClick={() => setOpenedProject(project.id)}
                     href=""
-                    className="text-teal"
+                    className="text-sky-700 "
                   >
                     View Screenshots
                   </Link>

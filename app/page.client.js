@@ -24,7 +24,7 @@ export default function Home() {
   };
   const th = 0.17;
   return (
-    <>
+    <div className="text-lg">
       <div className="animated-bg h-[60px] sticky top-0 hidden lg:block relative">
         <div className="flex items-center justify-between text-white font-semibold gap-x-2 mx-auto max-w-3xl lg:max-w-screen-lg  sm:px-6 xl:max-w-screen-xl  ">
           <div className="flex gap-x-2">
@@ -109,6 +109,6 @@ export default function Home() {
           </div>
         </div>
       </main>
-    </>
+    </div>
   );
 }

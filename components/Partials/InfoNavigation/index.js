@@ -8,7 +8,7 @@ import { PiLinkedinLogoDuotone, PiFacebookLogoDuotone } from "react-icons/pi";
 export default function InfoNavigation({ currentNavigation, onmenuchange }) {
   return (
     <div className="flex flex-col">
-      <div className="lg:flex gap-x-5 mb-5 lg:mb-10">
+      <div className="lg:flex gap-x-5 mb-5 lg:mb-5">
         <div className="w-full h-[150px] lg:h-auto lg:w-3/12 relative mb-3 lg:mb-0">
           <Image
             src="/assets/img/avatar.png"
@@ -37,7 +37,7 @@ export default function InfoNavigation({ currentNavigation, onmenuchange }) {
         </div>
       </div>
 
-      <div className="hidden lg:block text-sky-700 text-base mb-10 flex-1">
+      <div className="hidden lg:block text-sky-700 text-lg mb-5 flex-1">
         <ul className="space-y-5">
           <li className="relative">
             <Link
