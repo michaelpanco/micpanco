@@ -334,7 +334,7 @@ export default function Projects() {
 
   return (
     <div>
-      <div className="block lg:hidden font-semibold text-lime sticky top-0 py-4 bg-white">
+      <div className="block lg:hidden font-semibold text-sky-700 sticky top-0 py-4 bg-white">
         PROJECTS
       </div>
 
@@ -358,7 +358,7 @@ export default function Projects() {
                 <div className="font-semibold text-lg text-black">
                   {project.name}
                 </div>
-                <div className="mb-2 text-black">Type: {project.type}</div>
+                <div className="mb-2 text-gray-400">Type: {project.type}</div>
                 <div className="">
                   <p className="mb-3">{project.description}</p>
                   <Link

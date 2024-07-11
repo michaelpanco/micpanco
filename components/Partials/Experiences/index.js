@@ -74,7 +74,7 @@ export default function Experiences() {
       {experiences.map((experience, index) => {
         return (
           <div className="mb-8" key={index}>
-            <div className="text-black">{experience.head}</div>
+            <div className="text-gray-400">{experience.head}</div>
             <div className="font-semibold text-black mb-3">
               {experience.subHead}
             </div>

@@ -37,7 +37,7 @@ export default function InfoNavigation({ currentNavigation, onmenuchange }) {
         </div>
       </div>
 
-      <div className="hidden lg:block text-teal text-base mb-10 flex-1">
+      <div className="hidden lg:block text-sky-700 text-base mb-10 flex-1">
         <ul className="space-y-5">
           <li className="relative">
             <Link
@@ -94,7 +94,7 @@ export default function InfoNavigation({ currentNavigation, onmenuchange }) {
         </ul>
       </div>
       <div className="flex items-center justify-center lg:justify-start gap-x-4 mb-5 lg:mb-0">
-        <div className="text-black hidden lg:block">Get in touch</div>
+        <div className="text-gray-400 hidden lg:block">Get in touch</div>
         <div className="flex items-center gap-x-2">
           <Link
             href="https://facebook.com/michaelpanco"
