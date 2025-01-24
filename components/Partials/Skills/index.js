@@ -3,7 +3,7 @@ export default function Skills() {
     {
       title: "Frontend Development",
       subTitle:
-        "User Interface is my expertise, I really enjoy bringing ideas to life in the browser.",
+        "User Interface design is my area of expertise, and I thrive on bringing creative ideas to life through seamless, engaging browser experiences",
       preItemsTitle: "Languages I speak:",
       preItems: ["HTML", "Javascript", "CSS"],
       itemsTitle: "Development Tools:",
@@ -24,7 +24,7 @@ export default function Skills() {
     {
       title: "Backend Development",
       subTitle:
-        "Having a backend skill is super handy for me to build a project from scratch, here are some tools I used for backend development.",
+        "My backend skills are essential for building projects from the ground up. Here are some of the tools I use to power backend development.",
       preItemsTitle: "Languages I speak:",
       preItems: ["NodeJS", "PHP"],
       itemsTitle: "Frameworks & Databases:",
@@ -41,7 +41,7 @@ export default function Skills() {
     },
     {
       title: "Others",
-      subTitle: "And some bunch of tools that I’m using outside of coding.",
+      subTitle: "And a selection of tools I use beyond coding.",
       itemsTitle: "Other Tools:",
       items: [
         "Adobe Photoshop",

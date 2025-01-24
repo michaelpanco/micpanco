@@ -15,7 +15,7 @@ export default function Projects() {
       name: "Trainalta Earnportal - User Dashboard",
       type: "Web Dashboard",
       description:
-        "A user portal for Alta coaches to manage their classes, schedules, programs, and services pricing.",
+        "A user portal designed for Alta coaches to efficiently manage their classes, schedules, programs, and service pricing, streamlining administrative tasks and enhancing overall workflow.",
       techstack: ["ReactJS", "NextJS", "Material UI"],
       screenshots: [
         {
@@ -50,7 +50,7 @@ export default function Projects() {
       name: "Trainalta Earnportal - Site",
       type: "Website",
       description:
-        "A website dedicated to market earn portal dashboard, this site allows the user to log in, register, and purchase programs.",
+        "A website designed to showcase the EarnPortal dashboard, enabling users to register, log in, and purchase programs with ease, providing a seamless and engaging experience.",
       techstack: ["ReactJS", "NextJS", "ShadCN UI"],
       screenshots: [
         {
@@ -100,7 +100,7 @@ export default function Projects() {
       name: "Nextshark Site",
       type: "Website",
       description:
-        "The leading source for Asian American news covering culture, issues, entertainment, politics, and more.",
+        "The premier platform for Asian American news, covering a wide range of topics including culture, social issues, entertainment, politics, and more.",
       techstack: ["ReactJS", "NextJS", "Tailwind CSS"],
       screenshots: [
         {
@@ -126,7 +126,7 @@ export default function Projects() {
       name: "Nextshark App",
       type: "Mobile Application",
       description:
-        "Nextshark news is now accessible at the fingertips, both available on IOS and Android mobile",
+        "NextShark news is now easily accessible at your fingertips, available on both iOS and Android mobile platforms.",
       techstack: ["ReactNative", "Expo"],
       screenshots: [
         {
@@ -161,7 +161,7 @@ export default function Projects() {
       name: "Trainalta - Account Section",
       type: "Web Dashboard",
       description:
-        "This feature allows Trainalta users to manage their account profile, payment details, and manage subscription",
+        "This feature enables Trainalta users to efficiently manage their account profile, update payment details, and oversee their subscription preferences.",
       techstack: ["ReactJS", "NextJS", "Material UI"],
       screenshots: [
         {
@@ -184,7 +184,7 @@ export default function Projects() {
       name: "Frugll - Estimation Wizard",
       type: "Wizard Form",
       description:
-        "This wizard allows user to enter their address, and then this form will give the quotation for solar installation based on the property location.",
+        "This wizard guides users through entering their address, then provides a personalized solar installation quotation based on the property's location.",
       techstack: ["ReactJS", "NextJS", "Tailwind CSS"],
       screenshots: [
         {
@@ -207,7 +207,7 @@ export default function Projects() {
       name: "Gamedev - Courses Dashboard",
       type: "Web Dashboard",
       description:
-        "This dashboard connects to API to aggregate all details to summarize all the comprehensive reports about game courses.",
+        "This dashboard integrates with an API to aggregate data, providing a comprehensive summary of reports on game courses.",
       techstack: ["ReactJS", "NextJS", "Tailwind CSS", "NestJS"],
       screenshots: [
         {
@@ -227,7 +227,7 @@ export default function Projects() {
       name: "Sellsmart - Dashboard",
       type: "Web Dashboard",
       description:
-        "SellSmart is a leading services platform for real estate agents and their clients. This dashboard allows the user to manage all their services and see all request quotes for consumer users.",
+        "SellSmart is a premier service platform for real estate agents and their clients. This dashboard empowers users to efficiently manage all their services and view quote requests from consumer users.",
       techstack: ["ReactJS", "NextJS", "Material UI"],
       screenshots: [
         {
@@ -271,7 +271,7 @@ export default function Projects() {
       name: "Skrumpt CRM",
       type: "Web Dashboard",
       description:
-        "Skrumpt is the industry standard CRM software for Deal Packagers, Deal Sourcers, and Property Investors to flip unsellable properties.",
+        "Skrumpt is the industry-leading CRM software tailored for deal packagers, deal sourcers, and property investors, helping them transform unsellable properties into profitable deals.",
       techstack: ["ReactJS", "Material UI", "ExpressJS", "MongoDB"],
       screenshots: [
         {

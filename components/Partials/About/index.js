@@ -7,35 +7,22 @@ export default function About() {
 
       <p className="mb-2 ">
         {`
-            In my young days, my strengths lie in the artistic side; drawing, graphic
-            editing, and animation. Designing for me is quite fun and challenging, stuff like
-            deciding the proper sizing and placement of the element, setting the correct
-            combination of colors, and judging the end result, those are the things
-            that I enjoyed most. In 2008, I made my first website and I never thought
-            that it was quite fun, and so that triggered my interest in web
-            development. My college school doesn’t teach us about development but I
-            thrive to learn more anything about it. Because of this interest, I landed
-            an invitation for an OJT (On the Job Training), my college professor asked
-            me to work for him for this OJT to build a website for the school where
-            he’s working, and so I happily accepted it and that’s how my adventure in web
-            development started.
+In my younger days, I discovered my strengths lay in the artistic realm—drawing, graphic editing, and animation. Designing was both enjoyable and challenging for me, especially when it came to tasks like determining the right sizing and placement of elements, selecting harmonious color combinations, and evaluating the final results. These creative processes brought me the most joy.
               `}
       </p>
       <p className="mb-2">
         {`
-            My main focus these days is building and creating frontend
-            interfaces, ensuring that the website is easy to use, and adaptive.
-            My skills are centered on Javascript specifically in ReactJS and CSS
-            which is the trend nowadays. I made several projects with these
-            technologies and I have become confident using these things. I love
-            what I do, and my passion drives me towards successful projects.
+In 2008, I created my first website and was surprised by how much fun I had. This experience sparked my interest in web development. Although my college curriculum didn’t include courses on development, I was determined to teach myself everything I could about it. This passion eventually led to an exciting opportunity: my college professor invited me to join him for an On-the-Job Training (OJT) project. He tasked me with building a website for the school where he worked. I eagerly accepted, and that’s how my adventure in web development began.
               `}
       </p>
       <p className="mb-2">
         {`
-            Outside of my work desk, I’m usually watching Japanese anime,
-            watching basketball, gardening in the backyard, and hanging out with
-            my wife, these are all ways for me to recharge and continue my coding.
+Today, my primary focus is on building and creating frontend interfaces, ensuring websites are user-friendly and adaptive. My expertise lies in JavaScript, particularly ReactJS, and CSS—technologies that are highly relevant in modern development. Over the years, I’ve worked on several projects using these tools, and I’ve grown confident in my abilities. I genuinely love what I do, and my passion motivates me to deliver successful projects.
+              `}
+      </p>
+      <p className="mb-2">
+        {`
+Outside of work, I enjoy watching Japanese anime, catching basketball games, gardening in my backyard, and spending quality time with my wife. These activities help me recharge and fuel my creativity for coding.
               `}
       </p>
     </div>

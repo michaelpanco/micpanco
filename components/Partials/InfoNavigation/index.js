@@ -26,12 +26,18 @@ export default function InfoNavigation({ currentNavigation, onmenuchange }) {
           </div>
           <div>
             <p className="mb-1">
-              I{"’"}m a web developer with 14 years of experience specializing
-              in Frontend development, I am currently based in the Philippines.
+              I{"’"}m a web developer with over 14 years of experience,
+              specializing in Frontend development. Currently based in the
+              Philippines, I{"’"}ve had the opportunity to work on a diverse
+              range of projects, crafting intuitive and visually appealing user
+              interfaces.
             </p>
             <p>
-              I{"’"}m passionate about web design, coding, and exploring the
-              advancement of web technologies.
+              My passion for web design and coding drives me to continuously
+              explore the latest advancements in web technologies. I{"’"}m
+              always eager to stay ahead of trends and innovations, leveraging
+              new tools and techniques to deliver top-tier, user-centered web
+              experiences.
             </p>
           </div>
         </div>
