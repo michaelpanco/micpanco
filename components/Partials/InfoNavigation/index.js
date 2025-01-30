@@ -131,7 +131,7 @@ export default function InfoNavigation({ currentNavigation, onmenuchange }) {
 
       <div className="block lg:hidden">
         <Link
-          href="/assets/files/resume_v3.1.2.pdf"
+          href="/assets/files/resume_v3.2.2.pdf"
           className="w-full block align-middle select-none font-sans font-bold text-center w-full lg:w-auto  transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none  py-5 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
           target="_blank"
         >
