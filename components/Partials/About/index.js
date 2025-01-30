@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div>
+    <div className="text-base lg:text-lg">
       <div className="block lg:hidden font-semibold text-lime sticky top-0 py-4 bg-white">
         ABOUT
       </div>

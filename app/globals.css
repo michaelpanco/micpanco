@@ -22,7 +22,7 @@ html {
   scroll-padding-top: 3rem;
 }
 body {
-  color: rgb(var(--foreground-rgb));
+  color: #000000;
 }
 
 .lime-gradient {

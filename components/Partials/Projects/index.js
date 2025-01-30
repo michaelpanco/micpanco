@@ -333,8 +333,8 @@ export default function Projects() {
   ];
 
   return (
-    <div>
-      <div className="block lg:hidden font-semibold text-sky-700 sticky top-0 py-4 bg-white">
+    <div className="text-base lg:text-lg">
+      <div className="block lg:hidden font-semibold text-lime sticky top-0 py-4 bg-white">
         PROJECTS
       </div>
 
@@ -371,7 +371,7 @@ export default function Projects() {
                 </div>
               </div>
             </div>
-            <div className="flex gap-x-3 justify-end">
+            <div className="flex gap-x-3 justify-end flex-wrap gap-y-3">
               {project.techstack.map((techstack, tsindex) => {
                 return (
                   <Badge key={tsindex} theme="teal">

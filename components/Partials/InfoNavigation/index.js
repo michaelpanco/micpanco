@@ -22,22 +22,20 @@ export default function InfoNavigation({ currentNavigation, onmenuchange }) {
             Michael <span className="text-lime">Panco</span>
           </div>
           <div className="font-semibold text-black mb-5 lg:mb-2 text-center lg:text-left">
-            Frontend Web Developer
+            Frontend / Fullstack Developer
           </div>
-          <div>
+          <div className="text-base lg:text-lg">
             <p className="mb-1">
-              I{"’"}m a web developer with over 14 years of experience,
-              specializing in Frontend development. Currently based in the
-              Philippines, I{"’"}ve had the opportunity to work on a diverse
-              range of projects, crafting intuitive and visually appealing user
-              interfaces.
+              I{"’"}m a Frontend web developer with over 14 years of experience,
+              based in the Philippines. I{"’"}ve worked on a diverse range of
+              projects, crafting intuitive and visually engaging user interfaces
+              that enhance user experiences.
             </p>
             <p>
-              My passion for web design and coding drives me to continuously
-              explore the latest advancements in web technologies. I{"’"}m
-              always eager to stay ahead of trends and innovations, leveraging
-              new tools and techniques to deliver top-tier, user-centered web
-              experiences.
+              I{"’"}m passionate about web design and coding, constantly
+              exploring the latest technologies to stay ahead of trends. I
+              embrace new tools and techniques to create top-tier, user-centered
+              web experiences.
             </p>
           </div>
         </div>
