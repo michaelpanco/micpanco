@@ -1,5 +1,5 @@
-import PageClient from "./page.client";
+import HomePage from "@micpanco/components/HomePage";
 
-export default async function Home() {
-  return <PageClient />;
+export default function Home() {
+  return <HomePage />;
 }
