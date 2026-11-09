@@ -1297,82 +1297,19 @@ a {
     max-width: 680px;
   }
 }
-@media (max-width: 920px) {
-  .hero-grid {
-    gap: 36px;
-  }
-  .projects-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .projects-grid > :last-child {
-    grid-column: span 2;
-    max-width: calc(50% - 10px);
-  }
-  .projects-grid-all > :last-child {
-    grid-column: auto;
-    max-width: none;
-  }
-  .tomori-screen-card {
-    width: calc((100% - 36px) / 3);
-    flex-basis: calc((100% - 36px) / 3);
-  }
-  .experience-timeline {
-    grid-template-columns: minmax(0, 1fr) 92px minmax(0, 1fr);
-  }
-  .experience-card {
-    grid-template-columns: 46px minmax(0, 1fr);
-    gap: 12px;
-    padding: 16px;
-  }
-  .company-mark {
-    width: 46px;
-    height: 46px;
-    font-size: 0.95rem;
-  }
-  .experience-card-heading {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 3px;
-  }
-  .experience-row::before {
-    width: 47px;
-  }
-  .experience-left .experience-year {
-    right: -82px;
-  }
-  .experience-right .experience-year {
-    left: -82px;
-  }
-  .skills-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .footer-inner {
-    grid-template-columns: 1fr auto;
-  }
-  .footer-nav {
-    display: none;
-  }
-}
-@media (max-width: 767px) {
-  .journey-heading {
-    margin-bottom: 34px;
-  }
-  .journey-heading h2 {
-    font-size: 32px;
-  }
-  .journey-heading p {
-    font-size: 0.92rem;
-  }
-  .journey-section::before {
-    left: -70px;
-  }
-  .journey-section::after {
-    right: -70px;
-  }
+/*
+ * The two-sided timeline needs more horizontal and vertical room than a
+ * tablet provides. Cards in its independent columns can otherwise place two
+ * year markers at nearly the same point on the center rail. Use the compact,
+ * chronological rail for tablets as well as phones.
+ */
+@media (max-width: 1199px) {
   .experience-timeline {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    max-width: 760px;
+    margin-inline: auto;
     padding-left: 68px;
   }
   .experience-column {
@@ -1422,6 +1359,67 @@ a {
     left: -68px;
     right: auto;
     transform: none;
+  }
+}
+@media (max-width: 920px) {
+  .hero-grid {
+    gap: 36px;
+  }
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .projects-grid > :last-child {
+    grid-column: span 2;
+    max-width: calc(50% - 10px);
+  }
+  .projects-grid-all > :last-child {
+    grid-column: auto;
+    max-width: none;
+  }
+  .tomori-screen-card {
+    width: calc((100% - 36px) / 3);
+    flex-basis: calc((100% - 36px) / 3);
+  }
+  .experience-card {
+    grid-template-columns: 46px minmax(0, 1fr);
+    gap: 12px;
+    padding: 16px;
+  }
+  .company-mark {
+    width: 46px;
+    height: 46px;
+    font-size: 0.95rem;
+  }
+  .experience-card-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 3px;
+  }
+  .skills-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer-inner {
+    grid-template-columns: 1fr auto;
+  }
+  .footer-nav {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .journey-heading {
+    margin-bottom: 34px;
+  }
+  .journey-heading h2 {
+    font-size: 32px;
+  }
+  .journey-heading p {
+    font-size: 0.92rem;
+  }
+  .journey-section::before {
+    left: -70px;
+  }
+  .journey-section::after {
+    right: -70px;
   }
   .about-grid {
     gap: 32px;
