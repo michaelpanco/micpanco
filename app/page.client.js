@@ -39,7 +39,7 @@ export default function Home() {
           </div>
           <div className="pt-2">
             <Link
-              href="/assets/files/resume_v3.2.3.pdf"
+              href="/assets/files/resume_v3.2.4.pdf"
               className="hover:underline"
               target="_blank"
             >

@@ -38,7 +38,7 @@ export default function Header() {
         </nav>
         <Link
           className="button button-primary"
-          href="/assets/files/resume_v3.2.3.pdf"
+          href="/assets/files/resume_v3.2.4.pdf"
           target="_blank"
         >
           <FiDownload aria-hidden="true" /> Download my CV
@@ -63,7 +63,7 @@ export default function Header() {
         ))}
         <Link
           className="button button-primary"
-          href="/assets/files/resume_v3.2.3.pdf"
+          href="/assets/files/resume_v3.2.4.pdf"
           target="_blank"
         >
           Download my CV

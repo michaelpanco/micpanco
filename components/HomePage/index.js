@@ -53,7 +53,7 @@ export default function HomePage() {
                   <FiMail /> Get in touch
                 </Link>
                 <Link
-                  href="/assets/files/resume_v3.2.3.pdf"
+                  href="/assets/files/resume_v3.2.4.pdf"
                   target="_blank"
                   className="button button-secondary"
                 >
